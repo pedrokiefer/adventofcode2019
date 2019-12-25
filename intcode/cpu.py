@@ -26,6 +26,7 @@ class IntComputer:
 
     def output(self, v):
         self.outputs.append(v)
+        self.pause = True
 
     def input(self):
         if self.input_index < len(self.inputs):
